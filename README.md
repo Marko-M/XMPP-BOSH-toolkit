@@ -4,7 +4,7 @@ This code enables you to [prebind](http://metajack.im/2009/12/14/fastest-xmpp-se
 
 Contents
 --------
-This repository holds PHP prebind library forked from [xmpp-prebind-php](https://github.com/candy-chat/xmpp-prebind-php/) and patched to support additional authentication mechanisms. It also holds jQuery plugin for handling XMPP BOSH session attachment from client side using JID, SID and RID.
+This repository holds PHP XMPP BOSH prebind library forked from [xmpp-prebind-php](https://github.com/candy-chat/xmpp-prebind-php/) and patched to support additional authentication mechanisms. It also holds jQuery plugin for handling XMPP BOSH session attachment from client side using JID, SID and RID.
 
 Examples
 --------
