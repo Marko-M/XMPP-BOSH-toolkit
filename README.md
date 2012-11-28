@@ -8,4 +8,4 @@ This repository holds PHP XMPP BOSH prebind library forked from [xmpp-prebind-ph
 
 Examples
 --------
-Inside examples directory there are two examples where I pass BOSH session data using cookies. One example shows you how to do this for ANONYMOUS and the other for other SASL mechanisms like DIGEST_MD5.
+Inside examples directory there are two examples where I pass BOSH session data using cookies. One example shows you how to do this for ANONYMOUS and the other for other SASL mechanisms like DIGEST-MD5.
