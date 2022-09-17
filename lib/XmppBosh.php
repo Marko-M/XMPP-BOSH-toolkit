@@ -93,7 +93,7 @@ class XmppBosh {
         $response = $this->sendInitConnection();
         $body = self::getBodyFromXml($response);
         $this->sid = $body->getAttribute('sid');
-        $mechanisms = $body->firstChild->firstChild->getElementsByTagName('mechanism');
+        $mechanisms = $body->firstChild->getElementsByTagName('mechanism');
 
         foreach ($mechanisms as $value) {
             $this->mechanisms[] = $value->nodeValue;
